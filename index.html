@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Nova Coordenada do Streetwear Brasileiro. Entre para a comunidade oficial da Latitude.">
+    <title>Latitude Streetwear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Urbanist:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon.png">
+    <link rel="shortcut icon" href="/assets/favicon.png">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#hero" class="logo smooth-scroll">
+                    <span class="logo-text"> <img src="assets/logo.svg" alt="Latitude Logo" width="200" height="50" ></span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#beneficios" class="nav-link">Benefícios</a>
+                    <a href="#showcase" class="nav-link">Drops</a>
+                    <a href="#comunidade" class="nav-link">Comunidade</a>
+                    <a href="https://chat.whatsapp.com/CPfrQFITV8sGt62xdoSaDj?mode=wwt" class="nav-cta" target="_blank" rel="noopener noreferrer">Entrar na Comunidade</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in-up">
+                    <h1 class="hero-title">A Nova Coordenada do Streetwear Brasileiro</h1>
+                    <p class="hero-subtitle">Entre para a comunidade oficial da Latitude e receba acesso antecipado ao primeiro drop.</p>
+                    <div class="hero-cta-group">
+                        <a href="https://chat.whatsapp.com/CPfrQFITV8sGt62xdoSaDj?mode=wwt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Entrar na Comunidade</a>
+                        <a href="#beneficios" class="btn btn-secondary smooth-scroll">Conhecer Benefícios</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-up">
+                    <div class="hero-image-placeholder">
+                        <img src="assets/hero.jpg" alt="Latitude Streetwear" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTDOWN SECTION -->
+    <section class="countdown" id="countdown">
+        <div class="container">
+            <div class="countdown-content fade-in-up">
+                <h2 class="countdown-title">O lançamento acontecerá em:</h2>
+                <div id="timer" class="timer-container">
+                    <div class="timer-unit">
+                        <div class="timer-value" id="days">00</div>
+                        <div class="timer-label">dias</div>
+                    </div>
+                    <div class="timer-separator">:</div>
+                    <div class="timer-unit">
+                        <div class="timer-value" id="hours">00</div>
+                        <div class="timer-label">horas</div>
+                    </div>
+                    <div class="timer-separator">:</div>
+                    <div class="timer-unit">
+                        <div class="timer-value" id="minutes">00</div>
+                        <div class="timer-label">min</div>
+                    </div>
+                    <div class="timer-separator">:</div>
+                    <div class="timer-unit">
+                        <div class="timer-value" id="seconds">00</div>
+                        <div class="timer-label">seg</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Por que fazer parte da Comunidade Latitude?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card fade-in-up">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Acesso Antecipado aos Drops</h3>
+                    <p class="benefit-text">Seja o primeiro a ter acesso aos novos lançamentos antes de todo mundo.</p>
+                </div>
+                <div class="benefit-card fade-in-up">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 8V12L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Benefícios e Vantagens Exclusivas</h3>
+                    <p class="benefit-text">Descontos especiais, frete grátis e condições únicas para membros da comunidade.</p>
+                </div>
+                <div class="benefit-card fade-in-up">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Conteúdos de Bastidores</h3>
+                    <p class="benefit-text">Acesso exclusivo ao processo criativo, making of e histórias por trás de cada drop.</p>
+                </div>
+                <div class="benefit-card fade-in-up">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Comunidade que Vive Cultura e Movimento</h3>
+                    <p class="benefit-text">Conecte-se com pessoas que compartilham a mesma paixão por streetwear e cultura urbana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOWCASE GRID -->
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Acesso Exclusivo aos Novos Drops</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item fade-in-up">
+                    <div class="showcase-image">
+                        <img src="assets/showcase-1.jpg" alt="Drop 1" loading="lazy">
+                        <div class="showcase-overlay">
+                            <span class="showcase-caption"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-item fade-in-up">
+                    <div class="showcase-image">
+                        <img src="assets/showcase-2.jpg" alt="Drop 2" loading="lazy">
+                        <div class="showcase-overlay">
+                            <span class="showcase-caption"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-item fade-in-up">
+                    <div class="showcase-image">
+                        <img src="assets/showcase-3.jpg" alt="Drop 3" loading="lazy">
+                        <div class="showcase-overlay">
+                            <span class="showcase-caption"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-item fade-in-up">
+                    <div class="showcase-image">
+                        <img src="assets/showcase-4.jpg" alt="Drop 4" loading="lazy">
+                        <div class="showcase-overlay">
+                            <span class="showcase-caption"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-item fade-in-up">
+                    <div class="showcase-image">
+                        <img src="assets/showcase-5.jpg" alt="Drop 4" loading="lazy">
+                        <div class="showcase-overlay">
+                            <span class="showcase-caption"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-item fade-in-up">
+                    <div class="showcase-image">
+                        <img src="assets/showcase-6.jpg" alt="Drop 4" loading="lazy">
+                        <div class="showcase-overlay">
+                            <span class="showcase-caption"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEAD CAPTURE SECTION -->
+    <section class="lead-capture" id="comunidade">
+        <div class="container">
+            <div class="lead-content fade-in-up">
+                <h2 class="section-title">Receba o Link Antecipado do Drop</h2>
+                <p class="lead-subtitle">Cadastre-se e seja notificado quando o primeiro drop estiver disponível.</p>
+                <form class="lead-form" id="leadForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="nome" 
+                            name="nome" 
+                            class="form-input" 
+                            placeholder="Seu nome (opcional)"
+                            aria-label="Nome"
+                        >
+                        <input 
+                            type="email" 
+                            id="emailInput" 
+                            class="form-input" 
+                            placeholder="Seu melhor e-mail" 
+                            required
+                            aria-label="Email"
+                        >
+                        <button type="submit" class="btn btn-primary btn-form">Cadastrar</button>
+                    </div>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA BLOCK -->
+    <section class="final-cta fade-in-up">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2 class="final-cta-title">Entre Agora para a Comunidade Latitude</h2>
+                <p class="final-cta-subtitle">O primeiro drop será lançado exclusivamente para membros.</p>
+                <a href="https://chat.whatsapp.com/CPfrQFITV8sGt62xdoSaDj?mode=wwt" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">Entrar na Comunidade</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo smooth-scroll">
+                    <span class="logo-text"> <img src="assets/logo.svg" alt="Latitude Logo" width="200" height="50"     ></span>
+                </a>
+                <nav class="footer-nav">
+                    <a href="#beneficios" class="footer-link smooth-scroll">Benefícios</a>
+                    <a href="#showcase" class="footer-link smooth-scroll">Drops</a>
+                    <a href="#comunidade" class="footer-link smooth-scroll">Comunidade</a>
+                    <a href="https://chat.whatsapp.com/CPfrQFITV8sGt62xdoSaDj?mode=wwt" class="footer-link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                </nav>
+                <p class="footer-text">&copy; 2025 Latitude. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
